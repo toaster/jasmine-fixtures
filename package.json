@@ -1,0 +1,26 @@
+{
+  "name": "code_cowboy-jasmine-fixtures",
+  "version": "0.0.1",
+  "description": "RSpec inspired fixtures for Jasmine",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toaster/jasmine-fixtures.git"
+  },
+  "author": "Tilo Prütz <tilo@pruetz.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toaster/jasmine-fixtures/issues"
+  },
+  "homepage": "https://github.com/toaster/jasmine-fixtures#readme",
+  "devDependencies": {
+    "jasmine": "^2.8.0",
+    "jasmine-spec-reporter": "^4.2.1"
+  },
+  "dependencies": {
+    "code_cowboy-jasmine-helper_setup": "0.0.1"
+  }
+}
