@@ -21,4 +21,4 @@ jasmine.getEnv().addReporter({
 });
 `
 
-helperSetup('code_cowboy-jasmine-fixtures', content);
+helperSetup('zz_code_cowboy-jasmine-fixtures', content);
