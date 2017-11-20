@@ -23,8 +23,6 @@ const Fixtures = {
 
     if (container.hasOwnProperty(name)) {
       throw `Cannot override already defined property with fixture: ${name}`;
-    } else if (isSubject && container.hasOwnProperty('subject')) {
-      throw "Cannot override already defined property “subject” with subject";
     }
 
     if (typeof fn !== 'function') {

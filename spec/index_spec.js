@@ -60,14 +60,6 @@ describe("fixtures", () => {
         .toThrow("Cannot override already defined property with fixture: foo");
   });
 
-  it("cannot overwrite existing subject property", () => {
-    let myContext = {subject: "bar"};
-    expect(() => { Fixtures.define(myContext, beforeAll, afterAll, 'foo', 'bar', true); })
-        .toThrow("Cannot override already defined property “subject” with subject");
-    expect(() => { Fixtures.define(myContext, beforeAll, afterAll, 'foo!', 'bar', true); })
-        .toThrow("Cannot override already defined property “subject” with subject");
-  });
-
   it("can have its memoized value be cleaned up", () => {
     variable = "first value";
     expect(context.functionFixture()).toEqual("variable: first value");

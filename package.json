@@ -1,6 +1,6 @@
 {
   "name": "code_cowboy-jasmine-fixtures",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "RSpec inspired fixtures for Jasmine",
   "main": "index.js",
   "bin": "bin/command.js",
