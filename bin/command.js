@@ -17,7 +17,7 @@ global.subject = (name, fn) => {
 
 jasmine.getEnv().addReporter({
   specStarted: () => Fixtures.prepare(global),
-  specDone: Fixtures.cleanup,
+  specDone: () => Fixtures.cleanup(global),
 });
 `
 
