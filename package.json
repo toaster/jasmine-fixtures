@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "description": "RSpec inspired fixtures for Jasmine",
   "main": "index.js",
+  "bin": "bin/command.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "node_modules/.bin/jasmine"
   },
   "repository": {
     "type": "git",
